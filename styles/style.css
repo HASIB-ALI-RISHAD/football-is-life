@@ -4,14 +4,17 @@
 body {
     font-family: 'Poppins',
         sans-serif;
+
 }
 
-/* Common Styles or Attributes */
+/* --------------Common Styles or Attributes Page-01---------*/
+
 /* <!-----------0 Top Banner Start 0-----------> */
 .top-banner {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    width: 1321px;
     height: 646px;
     left: 140px;
     margin: 50px 139px 0px 140px;
@@ -75,3 +78,231 @@ button a {
 }
 
 /* <!-----------0 Top Banner End 0-----------> */
+/* <!-----------0 Content Page-01 Start 0-----------> */
+.blogs-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: absolute;
+    width: 984px;
+    height: 1134px;
+    left: 476px;
+    right: 140px;
+    top: 826px;
+}
+
+.blog-main {
+    border: 1px solid lightgrey;
+    width: 312px;
+    height: 362px;
+    border-radius: 10px;
+}
+
+.blog-info {
+    padding-left: 20px;
+}
+
+.blog-image {
+    margin-bottom: 0;
+}
+
+.transfer {
+    margin-top: 20px;
+    border: 0.5px solid black;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 67px;
+    height: 24px;
+    padding: 4px 16px 4px 17px;
+    border-radius: 5px;
+}
+
+.blog-main h3 {
+    width: 272px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.transfer-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    row-gap: 30px;
+    width: 145px;
+    height: 26px;
+}
+
+#time-icon {
+    margin-left: 0;
+}
+
+.transfer-icon div {
+    margin-left: 30px;
+}
+
+/* <!-----------0 Content Page-01 End 0-----------> */
+
+/* --------------Common Styles or Attributes Page-02---------*/
+
+/* <!-----------0 Content Page-2 Start 0-----------> */
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.topic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+    position: absolute;
+    left: 140px;
+    top: 826px;
+    margin-right: 0;
+    background: #161616;
+    border-radius: 10px;
+}
+
+.topic button {
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    width: 252px;
+    height: 64px;
+    left: 170px;
+    top: 950px;
+}
+
+#blog-one {
+    color: white;
+    background-color: #DD0000;
+}
+
+#blog-two a {
+    color: black;
+    font-weight: 600;
+}
+
+#blog-two:hover {
+    background-color: greenyellow;
+    too
+}
+
+#blog-two a:hover {
+    cursor: pointer;
+}
+
+#all-group {
+    cursor: not-allowed;
+}
+
+#upcoming-match-one a {
+    color: black;
+    font-weight: 600;
+}
+
+#upcoming-match-one:hover {
+    background-color: greenyellow;
+}
+
+#upcoming-match-one:hover {
+    cursor: pointer;
+}
+
+#upcoming-match-two {
+    color: white;
+    background-color: #DD0000;
+}
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+    position: absolute;
+    left: 476px;
+    top: 826px;
+    margin: 0px;
+    width: 984px;
+    height: 508px;
+}
+
+.match {
+    width: 312px;
+    height: 242px;
+    left: 476px;
+    top: 826px;
+    font-weight: 1000;
+    border: 0.1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.match-flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23.04px;
+}
+
+.match h1 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.match h3 {
+    color: #4D4D4D;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+/* <!-----------0 Content Page-2 End 0-----------> */
+
+/* Common Footer For Both Pages */
+footer {
+    position: absolute;
+    width: 1600px;
+    height: 444px;
+    left: 0px;
+    top: 2090px;
+    background: #161616;
+}
+
+footer h1 {
+    color: white;
+    width: 95px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    margin: 112px 753px 50px 752px;
+}
+
+hr {
+    width: 1320px;
+    height: 0px;
+    left: 140px;
+    top: 2330px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #B9B9B9;
+    margin: 50px 352px 148px 350px;
+
+}
