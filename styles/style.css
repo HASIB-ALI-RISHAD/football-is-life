@@ -306,3 +306,20 @@ hr {
     margin: 50px 352px 148px 350px;
 
 }
+
+.social-media-handles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    background-color: #161616;
+    color: white;
+    padding-left: 50px;
+    padding-right: 70px;
+}
+
+.social-media-handles a {
+    text-decoration: none;
+    color: white;
+}
